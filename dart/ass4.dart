@@ -59,9 +59,9 @@ class Cart {
 }
 
 void main() {
-  var p1 = Product(1, "Laptop", 15000);
-  var p2 = Product(2, "Phone", 8000);
-  var p3 = Product(3, "Headphones", 1200);
+  var p1 = Product(1, "Laptop", 20000);
+  var p2 = Product(2, "Phone", 9000);
+  var p3 = Product(3, "Headphones", 8000);
 
   var cart = Cart();
 
@@ -71,3 +71,4 @@ void main() {
   cart.removeProduct(1);
   cart.showCart();
 }
+
